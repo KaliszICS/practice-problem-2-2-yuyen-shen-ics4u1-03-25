@@ -138,7 +138,7 @@ public class PracticeProblemTest {
          Class<?>[] cArg = { int[].class, int.class };
          Method method = testClass.getDeclaredMethod("compareSearch", cArg);
          // Enter code here
-         assertArrayEquals(new int[]{15, 4}, (int[]) method.invoke(null, new int[] {1, 2, 3, 4, 5, 6, 67, 8, 9, 230, 555, 786, 923, 1000, 1500}, 55));
+         assertArrayEquals(new int[]{15, 4}, (int[]) method.invoke(null, new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 230, 555, 786, 923, 1000, 1500}, 55));
       }
 
       catch (NoSuchMethodException e) {
